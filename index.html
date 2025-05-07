@@ -10,22 +10,29 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      background-color: #f0f0f0;
-      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ff4e50, #f9d423);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      animation: fondAnime 10s ease infinite alternate;
     }
 
+
     .download-button {
-      padding: 15px 30px;
-      background-color: #007BFF;
-      color: white;
+      padding: 18px 35px;
+      background: linear-gradient(45deg, #00c9ff, #92fe9d);
+      color: #fff;
       text-decoration: none;
-      border-radius: 8px;
-      font-size: 18px;
-      transition: background-color 0.3s;
+      border-radius: 12px;
+      font-size: 20px;
+      font-weight: bold;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+      border: none;
     }
 
     .download-button:hover {
-      background-color: #0056b3;
+      transform: scale(1.1);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+      background: linear-gradient(45deg, #ff6a00, #ee0979);
     }
   </style>
 </head>
